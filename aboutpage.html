@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University Website Design - By Alok Kumar</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index02.html"><img src="logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" oneclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="mainpage.html">HOME</a></li>
+                    <li><a href="aboutpage.html">ABOUT</a></li>
+                    <li><a href="coursepage.html">COURSE</a></li>
+                    <li><a href="blogpage.html">BLOG</a></li>
+                    <li><a href="contactpage.html">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" oneclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-------about us content-------->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odit explicabo non ab nemo esse saepe
+                    repellendus est nisi, modi incidunt dicta? Ex voluptates ipsam deleniti laborum id, quod omnis quam
+                    quibusdam nostrum. Corporis laboriosam officia illo eos assumenda, quo saepe tempora necessitatibus
+                    quia fugit.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+            </div>
+            <div class="about-col">
+                <img src="about.jpg" alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <!-----Footer------>
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed facere voluptatum consequuntur tempora tempore
+            dolore! Sapiente ducimus cumque quae commodi quod alias<br> voluptatum. Autem maiores quam ipsa voluptatem
+            nemo
+            nesciunt.</P>
+        <div class="icon">
+
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-linkedin'></i>
+            <i class='bx bxl-instagram'></i>
+
+        </div>
+        <p>Made with <i class='bx bx-heart'></i> by Easy Tutorials</p>
+    </section>
+
+    <!---------javascript for Toggle Menu--------->
+    <script>
+        var navlinks = document.getElementById("nav-links");
+
+        function showMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University Website Design - By Alok Kumar</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index02.html"><img src="logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" oneclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="mainpage.html">HOME</a></li>
+                    <li><a href="aboutpage.html">ABOUT</a></li>
+                    <li><a href="coursepage.html">COURSE</a></li>
+                    <li><a href="blogpage.html">BLOG</a></li>
+                    <li><a href="contactpage.html">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" oneclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2025</h1>
+    </section>
+
+    <!------blog page content--------->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+
+                <img src="certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2025</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nesciunt modi praesentium recusandae,
+                    dolorum molestias sapiente, sunt ea repudiandae vitae reprehenderit doloribus vero aliquid totam
+                    beatae saepe odit dignissimos quia earum, ratione cumque officia. Architecto nostrum quibusdam ipsam
+                    placeat neque corporis aliquid quis cumque voluptas!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto consequuntur iusto vero qui quam
+                    esse expedita maiores officiis beatae dolore. Aliquid nisi doloremque hic dolor, modi voluptates
+                    quam, beatae consectetur dicta consequuntur quas soluta officiis nulla. Dignissimos eveniet eaque
+                    recusandae aliquid earum? Mollitia laudantium nihil maiores illum enim quae, sed, recusandae aperiam
+                    eos blanditiis, nam dolore magni eligendi. Totam, similique!</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum officiis velit voluptatum, itaque
+                    quibusdam tenetur numquam architecto vel nostrum sequi iure saepe laboriosam sapiente, nobis debitis
+                    quasi, reiciendis ipsum! Quis veritatis ad vel sequi maxime voluptatem, quia quae quos sint ipsum
+                    consequuntur labore hic quibusdam odio quo, accusantium atque reprehenderit.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae repudiandae in facere
+                    accusantium rerum, dolorem dicta. Porro eaque, nulla voluptatem eius vitae quaerat tempora ipsum
+                    illo optio excepturi. Fuga, facere aspernatur reiciendis, sunt ipsam eos laboriosam unde hic
+                    expedita suscipit dolorem quasi doloremque aliquid maxime commodi eius. Voluptatibus, eos.</p>
+
+                 <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment">
+
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                 </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span> Data science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-----Footer------>
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed facere voluptatum consequuntur tempora tempore
+            dolore! Sapiente ducimus cumque quae commodi quod alias<br> voluptatum. Autem maiores quam ipsa voluptatem
+            nemo
+            nesciunt.</P>
+        <div class="icon">
+
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-linkedin'></i>
+            <i class='bx bxl-instagram'></i>
+
+        </div>
+        <p>Made with <i class='bx bx-heart'></i> by Easy Tutorials</p>
+    </section>
+
+    <!---------javascript for Toggle Menu--------->
+    <script>
+        var navlinks = document.getElementById("nav-links");
+
+        function showMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
